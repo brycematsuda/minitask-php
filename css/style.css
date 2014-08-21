@@ -1,0 +1,46 @@
+p {
+  display: inline;
+}
+
+
+div#pri_1 {
+  background-color: #D1E0FF;
+}
+
+div#pri_2 {
+  background-color: #CCFFCC;
+}
+
+div#pri_3 {
+  background-color: #FFFF99;
+}
+div#pri_4 {
+  background-color: #FFCC99;
+}
+div#pri_5 {
+  background-color: #FF9999;
+}
+div.container {
+  width: 800px;
+}
+
+ul.nav.nav-tabs {
+  margin: 10px 0 10px 0;
+}
+
+
+img#delete, img#edit {
+  float: right;
+}
+
+img#edit {
+  margin-right: 10px;
+}
+
+div[role="edit"] {
+  display: none;
+}
+
+h5#edit-header {
+  text-decoration: underline;
+}
