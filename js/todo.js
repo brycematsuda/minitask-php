@@ -3,6 +3,7 @@ $(document).ready(function(){
   /* Expand edit form*/
   $("img#edit").click(function() {
     $(this).parent().next().slideToggle();
+    return false;
   });
 
   /* AJAX delete task */

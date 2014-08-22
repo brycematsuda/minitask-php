@@ -11,7 +11,7 @@ else if (isset($_POST['create'])) {
   $query ="INSERT INTO tasks (task, priority, created_at) VALUES ('$task', '$priority', NULL)";
 }
 else if (isset($_POST['edit'])) {
-  $query = "UPDATE tasks SET task='$task', priority='$priority' WHERE task_id='$taskId'";
+  $query = "UPDATE tasks SET task='$task', priority='$priority', updated_at=now() WHERE task_id='$taskId'";
 }
 else {
   $query = "SELECT * ";
