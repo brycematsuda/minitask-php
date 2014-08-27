@@ -12,6 +12,7 @@
     <ul id="sort" class="dropdown-menu" role="menu">
       <li sort="createAsc"><a href="#">Oldest to newest</a></li>
       <li sort="createDesc"><a href="#">Newest to oldest</a></li>
+      <li sort="name"><a href="#">Alphanumerical</a></li>
       <li sort="priHiLo" ><a href="#">Priority (Desc)</a></li>
       <li sort="priLoHi" ><a href="#">Priority (Asc)</a></li>
     </ul>

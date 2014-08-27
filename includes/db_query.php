@@ -37,6 +37,10 @@ if (isset($_GET['sort'])){
     $query .= "priority ASC ";
     break;
 
+    case 'name':
+    $query .= "task ASC ";
+    break;
+
     default:
     break;
   }
