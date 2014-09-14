@@ -38,3 +38,11 @@ $(document).ready(function(){
     }
   });
 });
+
+function validateCreateForm() {
+  var task = document.forms["taskForm"]["task"].value;
+  if (task == null || task == "") {
+    alert("Task cannot be blank!");
+    return false;
+  }
+}

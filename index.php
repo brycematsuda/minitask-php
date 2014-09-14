@@ -27,7 +27,7 @@
             <a href="#"><img title="Edit Task" id="edit" task="<?php echo $row["task_id"] ?>" src="img/edit.png"></a>
             <div role="edit" id="edit_<?php echo $row["task_id"] ?>" class="list-group-item">
               <h5 id="edit-header">Edit Task</h5>
-              <form action="includes/process.php" role="form" method="post">
+              <form action="includes/process.php" name="taskForm" role="form" method="post">
                 <?php include 'includes/form.php'; ?>
                 <input type="submit" class="btn btn-default" id="edit-btn" name="edit" value="Edit" /><br>
               </form>
